@@ -1,0 +1,53 @@
+# === 系统文件 ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === IDE & 编辑器 ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# === Node ===
+node_modules/
+npm-debug.log*
+
+# === 编译产物 ===
+*.exe
+*.obj
+*.o
+*.out
+*.class
+
+# === 环境变量 & 密钥 ===
+.env
+.env.local
+*.key
+*.pem
+
+# === 日志 ===
+*.log
+logs/
+
+# === 临时文件 ===
+*.tmp
+*.temp
+*.bak
+*.cache
